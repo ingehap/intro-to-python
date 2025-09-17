@@ -1,5 +1,8 @@
 {
   "name": "Intro to Python",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
-  "postCreateCommand": "python -m pip install --user -r requirements.txt"
+  "postCreateCommand": "python -m pip install --user -r requirements.txt",
+  // Ready to run Jupyter notebooks after container starts
+  // Run: jupyter notebook --allow-root
+  // Then navigate to course/ folder to access the learning materials
 }
